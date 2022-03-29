@@ -1,0 +1,27 @@
+html{
+width: 80%;
+margin: 20px auto;
+background: white;
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0px;
+}
+
+nav ul li:hover{
+  color: darkgreen;
+  cursor: pointer;
+}
+
+a{
+    color: orange;
+}
+
+a:visited{
+    color: darkred;
+}
